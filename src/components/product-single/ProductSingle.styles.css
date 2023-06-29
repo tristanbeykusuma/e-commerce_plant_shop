@@ -1,0 +1,11 @@
+.product-single-image {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .quantity-changer{
+    width: 200px
+  }
+  .button-font{
+    font-size: 20px;
+  }
