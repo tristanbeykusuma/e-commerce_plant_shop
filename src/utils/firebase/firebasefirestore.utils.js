@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { auth, db } from "./firebaseauth.utils";
 import {
   doc,
@@ -240,29 +241,29 @@ export const addBlogPosts = async (post) => {
   if (!auth) return;
   let newDate = new Date()
   let m = await newDate.getMonth() + 1
-  if ((m == 1)) {
+  if ((m === 1)) {
     m = "January";
-  } else if ((m == 2)) {
+  } else if ((m === 2)) {
     m = "February";
-  } else if ((m == 3)) {
+  } else if ((m === 3)) {
     m = "March";
-  } else if ((m == 4)) {
+  } else if ((m === 4)) {
     m = "April";
-  } else if ((m == 5)) {
+  } else if ((m === 5)) {
     m = "May";
-  } else if ((m == 6)) {
+  } else if ((m === 6)) {
     m = "June";
-  } else if ((m == 7)) {
+  } else if ((m === 7)) {
     m = "July";
-  } else if ((m == 8)) {
+  } else if ((m === 8)) {
     m = "August";
-  } else if ((m == 9)) {
+  } else if ((m === 9)) {
     m = "September";
-  } else if ((m == 10)) {
+  } else if ((m === 10)) {
     m = "October";
-  } else if ((m == 11)) {
+  } else if ((m === 11)) {
     m = "November";
-  } else if ((m == 12)) {
+  } else if ((m === 12)) {
     m = "December";
   }
 
