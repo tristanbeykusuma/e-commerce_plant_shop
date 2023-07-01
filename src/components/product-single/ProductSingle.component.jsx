@@ -37,7 +37,7 @@ const ProductSingle = () => {
           <h1>{productData.name}</h1>
           <p>{productData.category}</p>
           <h4>
-            Rs.
+            Rp.
             {productData.price}/=
           </h4>
           {/* <div className="input-group mt-5 quantity-changer">
